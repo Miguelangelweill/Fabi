@@ -47,6 +47,42 @@ table {
 	border-spacing: 0;
 }
 /* here I start my css*/
+body{
+	font-family: 'Oxygen', sans-serif;
+}
 #navBarButton{
     margin-right: 2%;
+}
+#listNav {
+	font-size: 25px;
+	text-align: right;
+}
+#logoImage{
+	width: 100%;
+}
+#carouselExampleInterval img {
+	height:80vh;
+}
+.navbar {
+    width: 100vw;
+	z-index: 7;
+	display: block;
+	position: fixed;
+    
+}
+nav li {
+	display: inline-block;
+	margin: 2%;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 3%;
+
+}
+p {
+	margin: 3%;
+	word-spacing: 5px;
+	line-height: 22px;
+	font-size: 20px;
 }
